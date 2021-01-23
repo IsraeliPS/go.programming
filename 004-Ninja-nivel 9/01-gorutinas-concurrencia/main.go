@@ -1,6 +1,12 @@
 package main
 
-/*func main() {
+import (
+	"fmt"
+	"runtime"
+	"sync"
+)
+
+func main() {
 	fmt.Printf("Número de CPUs al inicio: %v\n", runtime.NumCPU())
 	fmt.Printf("Número de Gorutinas al inicio: %v\n", runtime.NumGoroutine())
 
@@ -23,4 +29,4 @@ package main
 	fmt.Printf("Número de CPUs al final: %v\n", runtime.NumCPU())
 	fmt.Printf("Número de Gorutinas al final: %v\n", runtime.NumGoroutine())
 
-}*/
+}
