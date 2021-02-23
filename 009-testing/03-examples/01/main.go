@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gitlab.com/israeli/go.programming/009-testing/03-examples/01/mate"
+	"github.com/go.programming/009-testing/03-examples/01/mate"
 )
 
 func main() {
